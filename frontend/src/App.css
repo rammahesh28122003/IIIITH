@@ -1,0 +1,82 @@
+/* Apply background image to the whole body */
+body {
+  background: url('https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8318.jpg?semt=ais_hybrid') no-repeat center center fixed;
+  background-size: cover; /* Ensures the background image covers the whole page */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the entire app */
+.log-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adding slight opacity to make the content stand out */
+  border-radius: 10px; /* Optional: rounded corners for a more modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: soft shadow around the container */
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Style for the chart container */
+.chart {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Container for the table */
+.table-container {
+  margin-top: 20px;
+  padding: 20px;
+  overflow-x: auto; /* Allows horizontal scrolling if the table is too wide */
+}
+
+/* Style for the table */
+.log-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders are neatly collapsed */
+  margin-top: 20px;
+  font-family: Arial, sans-serif; /* Font style */
+  background-color: #fff;
+}
+
+/* Style for table headers */
+.log-table th {
+  background-color: #f4f4f4; /* Light background for header */
+  padding: 10px; /* Space around text */
+  border: 1px solid #ddd; /* Border around each header cell */
+  text-align: left; /* Align text to the left */
+  font-weight: bold; /* Make headers bold */
+}
+
+/* Style for table data cells */
+.log-table td {
+  padding: 10px; /* Space around text */
+  border: 1px solid #ddd; /* Border around each data cell */
+  text-align: left; /* Align text to the left */
+}
+
+/* Hover effect on table rows */
+.log-table tr:hover {
+  background-color: #f9f9f9; /* Light background on hover */
+}
+
+/* Loading and Error Containers */
+.loading-container, .error-container {
+  color: blue;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error-container {
+  color: red;
+}
+
+.loading-container p, .error-container p {
+  font-size: 18px;
+}
